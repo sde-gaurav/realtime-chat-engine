@@ -639,9 +639,9 @@ pm2 save
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@sde-gaurav](https://github.com/sde-gaurav)
+- LinkedIn: [Gaurav Singh](https://linkedin.com/in/gaurav-sde)
+- Email: gaurav2k50@gmail.com
 
 ---
 
