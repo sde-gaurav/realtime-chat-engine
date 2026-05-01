@@ -664,7 +664,7 @@ This project is licensed under the ISC License.
 
 For issues, questions, or contributions:
 - Open an issue on GitHub
-- Email: gaurav2k50@example.com
+- Email: gaurav2k50@gmail.com
 - Documentation: See project wiki
 
 ---
