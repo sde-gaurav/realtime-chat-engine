@@ -1,6 +1,14 @@
 const errorHandler = (err, req, res, next) => {
   console.error('Error:', err);
 
+  // Body-parser JSON parse failure (empty or malformed body)
+  if (err.type === 'entity.parse.failed') {
+    return res.status(400).json({
+      success: false,
+      message: 'Invalid JSON in request body',
+    });
+  }
+
   // Mongoose validation error
   if (err.name === 'ValidationError') {
     const errors = Object.values(err.errors).map(e => e.message);
